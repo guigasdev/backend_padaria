@@ -5,31 +5,31 @@ Este projeto foi desenvolvido com Django e tem como objetivo gerenciar os princi
 
 ## Funcionalidades
 
-### 1. **Gerenciamento de Usuários**
-   - **CRUD de Usuários**: Cadastro, edição, listagem e exclusão de usuários.
-   - **Login e Logout**: Usuários podem autenticar-se no sistema.
-   - **Controle de Acesso**: Apenas usuários logados têm acesso às funcionalidades principais.
-   - **Cadastro de Usuários Administrativos**: Definir permissões e funções administrativas para os usuários.
+### 1. Gerenciamento de Usuários
+   - CRUD de Usuários: Cadastro, edição, listagem e exclusão de usuários.
+   - Login e Logout: Usuários podem autenticar-se no sistema.
+   - Controle de Acesso: Apenas usuários logados têm acesso às funcionalidades principais.
+   - Cadastro de Usuários Administrativos: Definir permissões e funções administrativas para os usuários.
 
-### 2. **Gerenciamento de Fornecedores**
-   - **CRUD de Fornecedores**: Permite cadastrar, editar, listar e excluir fornecedores.
-   - **Informações do Fornecedor**: Dados como nome, telefone, CPF/CNPJ, e endereço são armazenados.
+### 2. Gerenciamento de Fornecedores
+   - CRUD de Fornecedores: Permite cadastrar, editar, listar e excluir fornecedores.
+   - Informações do Fornecedor: Dados como nome, telefone, CPF/CNPJ, e endereço são armazenados.
 
-### 3. **Gerenciamento de Clientes**
-   - **CRUD de Clientes**: Cadastro, edição, listagem e exclusão de clientes.
-   - **Informações do Cliente**: Dados como nome, telefone, CPF/CNPJ, e endereço são registrados.
+### 3. Gerenciamento de Clientes
+   - CRUD de Clientes: Cadastro, edição, listagem e exclusão de clientes.
+   - Informações do Cliente: Dados como nome, telefone, CPF/CNPJ, e endereço são registrados.
 
-### 4. **Gerenciamento de Recebimentos**
-   - **Cadastro de Recebimentos**: Registra recebimentos associados a clientes.
-   - **Acompanhamento de Status**: Controle do status dos recebimentos (pendente, pago, cancelado).
-   - **Listagem de Recebimentos**: Exibe todos os recebimentos com detalhes sobre data de vencimento e valor.
+### 4. Gerenciamento de Recebimentos
+   - Cadastro de Recebimentos: Registra recebimentos associados a clientes.
+   - Acompanhamento de Status: Controle do status dos recebimentos (pendente, pago, cancelado).
+   - Listagem de Recebimentos: Exibe todos os recebimentos com detalhes sobre data de vencimento e valor.
 
-### 5. **Gerenciamento de Pagamentos**
-   - **Cadastro de Pagamentos**: Permite registrar pagamentos associados a fornecedores.
-   - **Acompanhamento de Status**: Controle do status dos pagamentos (pendente, pago, cancelado).
-   - **Listagem de Pagamentos**: Exibe todos os pagamentos com detalhes sobre data de vencimento e valor.
+### 5. Gerenciamento de Pagamentos
+   - Cadastro de Pagamentos: Permite registrar pagamentos associados a fornecedores.
+   - Acompanhamento de Status: Controle do status dos pagamentos (pendente, pago, cancelado).
+   - Listagem de Pagamentos: Exibe todos os pagamentos com detalhes sobre data de vencimento e valor.
 
-### 6. **Dashboard**
+### 6. Dashboard
    - Exibe uma visão geral de pagamentos e recebimentos pendentes, com foco nos próximos vencimentos.
    - Acesso rápido às principais funcionalidades do sistema.
 
@@ -90,10 +90,10 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 ## Tecnologias Utilizadas
 
-- **Django**: Framework principal utilizado para desenvolvimento do backend.
-- **SQLite**: Banco de dados utilizado (pode ser alterado para PostgreSQL ou MySQL).
-- **Bootstrap**: Usado para a estilização básica das interfaces HTML.
-- **HTML5/CSS3**: Linguagens para renderização da interface do usuário.
+- Django: Framework principal utilizado para desenvolvimento do backend.
+- SQLite: Banco de dados utilizado (pode ser alterado para PostgreSQL ou MySQL).
+- Bootstrap: Usado para a estilização básica das interfaces HTML.
+- HTML5/CSS3: Linguagens para renderização da interface do usuário.
 
 ## Como Contribuir
 
